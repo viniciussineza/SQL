@@ -2,7 +2,7 @@ USE sistema_escola;
 
 CREATE TABLE matriculas (
 
-    cod_matri BIGINT NOT NULL AUTO IDENTITY(1,1),
+    cod_matri BIGINT NOT NULL IDENTITY(1,1),
     cod_alu BIGINT NOT NULL,
     cod_disc BIGINT NOT NULL,
     ano INT NOT NULL,
