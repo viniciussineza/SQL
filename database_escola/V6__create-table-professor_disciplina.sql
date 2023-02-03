@@ -1,4 +1,4 @@
-USE sistema-escola;
+USE sistema_escola;
 
 CREATE TABLE professor_disciplina (
 
